@@ -1,9 +1,9 @@
-// Lesson 02.01 - START
+// Lesson 02.01 - PROG
 // conditional logic: if-else
 
 // comparison operators revisited::**
 /*
-    > greater than      
+    > greater than
     < less than
     >= greater than or equal to
     <= less than or equal to
