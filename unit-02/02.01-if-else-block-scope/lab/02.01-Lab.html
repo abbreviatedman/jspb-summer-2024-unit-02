@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Lab 02.01</title>
-    
-    <link href="../../../css/basic-pg-console.log.css" rel="stylesheet">
+
+    <link href="../../../css/basic-pg-console.log.css" rel="stylesheet" />
 
     <style>
+      body {
+        background-color: #555;
+        color: #555;
+        font-family: sans-serif;
+        text-align: center;
+      }
 
-        body { 
-            background-color: #555;
-            color: #555;
-            font-family: sans-serif;
-            text-align: center;
-        }
+      .container {
+        margin: 50px auto;
+        padding: 30px;
+        border-radius: 10px;
+        border: 3px solid #999;
+        width: 650px;
+        height: 65vh;
+        background-color: #ccc;
+      }
 
-        .container {
-            margin: 50px auto;
-            padding: 30px;
-            border-radius: 10px;
-            border: 3px solid #999;
-            width: 650px;
-            height: 65vh;
-            background-color: #ccc;
-        }
-
-        img {
-            width: 90px; 
-            float:left; 
-            padding-right:30px;
-        }
-
+      img {
+        width: 90px;
+        float: left;
+        padding-right: 30px;
+      }
     </style>
-
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-
-        <div>
-            <img src="../../../images/lab-testtube.jpg">
-            <h1>JS Lab 02.01 <br> Conditional Logic <br>If-ELse</h1>   
-            <h3>See script tag in this html file for lab assignment.</h3> 
-            <h3>As you work, check the console for output and <span style="color:red">red error messages</span>. 
-            <h3>Please check Lab Solution file only after giving the Lab your best effort!</h3>
-        </div>
-
+      <div>
+        <img src="../../../images/lab-testtube.jpg" />
+        <h1>
+          JS Lab 02.01 <br />
+          Conditional Logic <br />If-ELse
+        </h1>
+        <h3>See script tag in this html file for lab assignment.</h3>
+        <h3>
+          As you work, check the console for output and
+          <span style="color: red">red error messages</span>.
+        </h3>
+        <h3>
+          Please check Lab Solution file only after giving the Lab your best
+          effort!
+        </h3>
+      </div>
     </div>
-    
+
     <script>
+      // 02.01 LAB
 
-// 02.01 LAB 
-
-    /*
+      /*
     1. Declare a variable called lucyIsOnline and set its value to false. Write an if-else statement: 
         - if lucyIsOnline is true, console.log "Lucy is online",
         - if lucyIsOnline is false, console.log "Lucy is not online"
@@ -80,8 +82,8 @@
         - if 1 star, review is "Awful"
         - console.log review below the whole thing
 
-    5. Debug the following: 
-    
+    5. Debug the following:
+
         let animal = 'cow';
         let sound = '';
 
@@ -93,14 +95,14 @@
             sound = Moo;
         } else (Animal and sound both unknown) {
         console.log('sound + !');
-    
+
         // desired output: Moo!
     */
 
-    // 6. Given these variables, write an if-else with three "else if" blocks to evaluate multiple temperature ranges:
-    let fahrenheit = 95;
-    let weather = "";
-    /*
+      // 6. Given these variables, write an if-else with three "else if" blocks to evaluate multiple temperature ranges:
+      let fahrenheit = 95;
+      let weather = "";
+      /*
     - above 90 is hot
     - 70-89 is warm
     - 50-69 is cool
@@ -108,11 +110,9 @@
     - below 32 is freezing
     */
 
-// END LAB 02.01
+      // END LAB 02.01
 
-// SEE LAB 02.01 SOLUTION
-        
+      // SEE LAB 02.01 SOLUTION
     </script>
-    
-</body>
+  </body>
 </html>
