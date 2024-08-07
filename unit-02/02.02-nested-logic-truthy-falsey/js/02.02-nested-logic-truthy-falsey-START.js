@@ -1,4 +1,4 @@
-// Lesson 02.02
+// Lesson 02.02 - START
 
 // nested if-else logic
 
