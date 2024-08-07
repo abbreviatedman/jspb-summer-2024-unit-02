@@ -1,19 +1,25 @@
 // Lesson 02.03 - START
-/* 
-ternary expressions
-&& (AND) operator 
-|| (OR) operator 
+/*
+- Ternary Expressions
+- && (AND) Operator
+- || (OR) Operator
+- Switch Statements
 */
 
 // ternary expression
 
-// A ternary expression is a concise alternative to an if-else statement. What takes an if-else five lines of code to accomplish, a ternary expression gets done in one.
+// A ternary expression is a concise alternative to an if-else statement. What
+// takes an if-else five lines of code to accomplish, a ternary expression gets
+// done in one.
 
 // Let's start with an if-else statement.
 
 // 1. Declare three number variables and do some conditional math.
+
 // If x is less than y, add them; othewise (else) multiply them:
+
 let x;
+let y;
 let z;
 
 console.log(z);
@@ -22,7 +28,7 @@ console.log(z);
 
 // 2. Add a question mark right inside the if-block:
 /*
-if(x < y) {  
+if(x < y) {
     ? z = x * y;
 } else {
     z = x + y;
@@ -30,7 +36,7 @@ if(x < y) {
 */
 // 3. Add a colon right inside the else-block:
 /*
-if(x < y) {  
+if(x < y) {
     ? z = x * y;
 } else {
     : z = x + y;
@@ -38,7 +44,7 @@ if(x < y) {
 */
 // 4. Delete the if() and else, including parentheses:
 /*
-x < y {  
+x < y {
     ? z = x * y;
 } {
     : z = x + y;
@@ -50,11 +56,13 @@ x < y {
 //     ? z = x * y;
 //     : z = x + y;
 
-// 6. This is all one line now, so get rid of the first semi-colon and back everything up onto the same line:
+// 6. This is all one line now, so get rid of the first semi-colon and back
+// everything up onto the same line:
 
 console.log(z);
 
-// 7. You can even get rid of the second "z=" since it is assumed by the first one:
+// 7. Now we can move the assignment to the start of the line. We only need
+// _one_ assignment.
 
 console.log(z);
 

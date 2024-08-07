@@ -1,8 +1,8 @@
 // Lesson 02.03 - FINAL
-/* 
+/*
 ternary expressions
-&& (AND) operator 
-|| (OR) operator 
+&& (AND) operator
+|| (OR) operator
 */
 
 // ternary expression
@@ -29,7 +29,7 @@ console.log(z);
 
 // 2. Add a question mark right inside the if-block:
 /*
-if(x < y) {  
+if(x < y) {
     ? z = x * y;
 } else {
     z = x + y;
@@ -37,7 +37,7 @@ if(x < y) {
 */
 // 3. Add a colon right inside the else-block:
 /*
-if(x < y) {  
+if(x < y) {
     ? z = x * y;
 } else {
     : z = x + y;
@@ -45,7 +45,7 @@ if(x < y) {
 */
 // 4. Delete the if() and else, including parentheses:
 /*
-x < y {  
+x < y {
     ? z = x * y;
 } {
     : z = x + y;
@@ -57,14 +57,16 @@ x < y {
 //     ? z = x * y;
 //     : z = x + y;
 
-// 6. This is all one line now, so get rid of the first semi-colon and back everything up onto the same line:
+// 6. This is all one line now, so get rid of the first semi-colon and back
+// everything up onto the same line:
 
 x < y ? (z = x * y) : (z = x + y);
 
 console.log(z);
 
-// 7. You can even get rid of the second "z=" since it is assumed by the first one:
-x < y ? (z = x * y) : x + y;
+// 7. Now we can move the assignment to the start of the line. We only need
+// _one_ assignment.
+z = x < y ? x * y : x + y;
 
 console.log(z);
 
@@ -74,13 +76,13 @@ console.log(z);
 
 let n = 5;
 
-if (n == 7) {
+if(n == 7) {
   n = 0;
 } else {
-  n++;
+  n = n + 1;
 }
 
-n == 7 ? (n = 0) : n++;
+n = n == 7 ? 0 : n + 1;
 
 console.log(n); // 6
 
@@ -88,15 +90,17 @@ console.log(n); // 6
 
 let num = 20;
 
-if (num == 20) {
-  num++;
+if(num == 20) {
+  num = num + 1;
 } else {
-  num--;
+  num = num - 1;
 }
 
-num == 20 ? num++ : num--; // 21
-
 console.log(num);
+
+num = num == 20 ? num + 1 : num - 1;
+
+console.log(num); // 21
 
 // multiple conditions
 
